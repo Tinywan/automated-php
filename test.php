@@ -7,8 +7,7 @@ use Facebook\WebDriver\Remote\RemoteWebDriver;
 use Facebook\WebDriver\WebDriverDimension;
 use Facebook\WebDriver\WebDriverBy;
 
-//$host = 'http://localhost:4444/wd/hub'; // this is the default
-$host = 'http://47.99.94.49:4555/wd/hub'; // this is the default
+$host = 'http://localhost:4444/wd/hub'; // this is the default
 $driver = RemoteWebDriver::create($host, \Facebook\WebDriver\Remote\DesiredCapabilities::chrome());
 
 $size = new WebDriverDimension(1280, 900);
